@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Press Start 2P", cursive;
+  }
+  
+  .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  #myCanvas {
+    background: #98f10f;
+  }
+
+  #start {
+    background: red;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Press Start 2P", cursive;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top:80px;
+    width: 10rem;
+  }
+
+  .score {
+    text-align: center;
+  }
+
+  .modal {
+    position: absolute;
+    z-index: 100;
+    text-align: center;
+    background: #fff;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 3px 4px 32px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 32px -10px rgba(0,0,0,0.75);
+    box-shadow: 3px 4px 32px -10px rgba(0,0,0,0.75);
+  }
