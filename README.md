@@ -1,2 +1,3 @@
 # snake-game-js
-## classic game sanke
+## Classic game sanke
+## Vanilla JS
